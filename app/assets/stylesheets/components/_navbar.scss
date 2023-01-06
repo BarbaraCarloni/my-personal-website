@@ -1,0 +1,46 @@
+// menu
+
+.my-navbar {
+  justify-content: space-between;
+  background: black;
+  opacity: 50%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.my-navbar .nav-link {
+  color: white;
+  font-size: 20px;
+  margin-inline: 8px;
+}
+
+.my-navbar .navbar-collapse {
+  flex-grow: 0;
+}
+
+// redes sociais
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  color: white;
+  // opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.social-links a:hover {
+  opacity: 1;
+}
