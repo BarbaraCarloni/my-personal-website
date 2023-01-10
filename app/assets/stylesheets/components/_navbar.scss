@@ -1,21 +1,58 @@
 // menu
 
-.my-navbar {
+.navbar {
   justify-content: space-between;
   background: black;
   opacity: 50%;
   font-family: 'Bebas Neue', cursive;
+  width: 100%;
 }
 
-.my-navbar .nav-link {
+.navbar .nav-link {
   color: white;
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-inline: 8px;
 }
 
-.my-navbar .navbar-collapse {
+.navbar .navbar-collapse {
   flex-grow: 0;
 }
+
+.navbar-toggler-icon {
+  background-color: white;
+
+}
+
+// menu hamburguer
+
+.menu2 {
+  padding: 5px;
+  color: #fff;
+  background: black;
+  font-size: 140%;
+  cursor: pointer;
+  display: none;
+}
+
+.menu2 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+.menu2 #mobile-menu {
+  display: none;
+}
+
+// @media (max-width: 600px) {
+//   .menu2 {
+//     display: block;
+//   }
+// }
+
 
 // redes sociais
 
@@ -24,7 +61,7 @@
   align-items: center;
   justify-content: space-between;
   // height: 100px;
-  padding: 0px 50px;
+  padding: 0px 10px;
   color: white;
 }
 
@@ -43,4 +80,10 @@
 
 .social-links a:hover {
   opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    margin-inline: 33%;
+  }
 }

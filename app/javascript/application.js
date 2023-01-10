@@ -2,5 +2,6 @@
 console.log("Hello from app/javascript/application.js")
 import "@hotwired/turbo-rails"
 import "controllers"
+import "jquery"
 import "bootstrap"
 import "assets/stylesheets/application"

@@ -77,8 +77,6 @@ GEM
     bindex (0.8.1)
     bootsnap (1.15.0)
       msgpack (~> 1.2)
-    bootstrap-navbar (3.2.1)
-      gem_config (~> 0.3)
     builder (3.2.4)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
@@ -90,7 +88,6 @@ GEM
     ffi (1.15.5)
     font-awesome-sass (6.2.1)
       sassc (~> 2.0)
-    gem_config (0.3.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -154,9 +151,6 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.4)
       loofah (~> 2.19, >= 2.19.1)
-    rails_bootstrap_navbar (3.0.0)
-      bootstrap-navbar (~> 3.0)
-      rails (>= 3.0.0)
     railties (7.0.4)
       actionpack (= 7.0.4)
       activesupport (= 7.0.4)
@@ -215,7 +209,6 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.4)
-  rails_bootstrap_navbar
   sassc-rails
   simple_form!
   sprockets-rails
