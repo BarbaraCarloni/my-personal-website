@@ -1,17 +1,24 @@
 // menu
 
-.navbar {
-  justify-content: space-between;
+.my-navbar {
   background: black;
   opacity: 50%;
   font-family: 'Bebas Neue', cursive;
   width: 100%;
 }
 
-.navbar .nav-link {
+.navbar > .container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.my-navbar .nav-link {
   color: white;
-  font-size: 1.3rem;
-  margin-inline: 8px;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  gap: 3rem;
 }
 
 .navbar .navbar-collapse {
@@ -20,7 +27,6 @@
 
 .navbar-toggler-icon {
   background-color: white;
-
 }
 
 // menu hamburguer
@@ -84,6 +90,5 @@
 
 @media (max-width: 600px) {
   .navbar {
-    margin-inline: 33%;
-  }
+  display: none;  }
 }
