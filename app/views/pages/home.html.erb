@@ -1,0 +1,82 @@
+<div class="home-about">
+  <div class="home-video-wrapper">
+    <%= video_tag "Dots.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
+      <div class="info-banner">
+        <div class="title">
+          <div class="name">
+            <h1 class="titulo-principal">Bárbara Carloni</h1>
+              <script>
+                function typeWrite(elemento){
+                  const textoArray = elemento.innerHTML.split('');
+                  elemento.innerHTML = ' ';
+                  textoArray.forEach(function(letra, i){
+
+                    setTimeout(function(){
+                      elemento.innerHTML += letra;
+                    }, 75 * i)
+
+                  });
+                }
+                  const titulo = document.querySelector('.titulo-principal');
+                  typeWrite(titulo);
+              </script>
+          </div>
+          <div class="front">
+            <h1>Desenvolvedora Front-end</h1>
+          </div>
+          <div class="design">
+            <h1>Designer</h1>
+          </div>
+        </div>
+        <div class="perfil">
+          <%= image_tag "perfil.jpg", id:"photo"%>
+        </div>
+      </div>
+  </div>
+
+  <div class="about_me" id="text1">
+    <h2>Sobre</h2>
+    <p>Sou desenvolvedora front-end com experiência em HTML, CSS, JavaScript e formação em Design de Moda. Programadora com habilidades criativas de um designer para desenvolver interfaces de sites. Tenho conhecimento back-end em Ruby on Rails.</p>
+    <p>Estou focada em aprender novas tecnologias e crescer com novos desafios. No momento, tenho aprofundado meu conhecimento em JavaScript e React, mas sigo praticando e fazendo alguns projetos que futuramente disponilizarei aqui no site.</p>
+    <%# <p>Eu sempre gostei de trabalhar com arte e criação, confecção de adereços de carnaval e decoração de festas. Hoje eu vejo a programação com esse olhar artístico.</p> %>
+    <p>Quando não estou escrevendo código, gosto de assistir filmes e séries, curtir os amigos e família, ir à praia e passear com minha cachorra.</p>
+  </div>
+
+  <div class="projects" id="text2">
+    <h2>Projetos</h2>
+      <div class="card-project">
+        <%= image_tag "print_go_outside.png", id:"go"%>
+          <div class="card-infos">
+            <div>
+              <h2><a href="https://go-outside.herokuapp.com/" target="_blank">Go Outside</a></h2>
+              <p>Encontre um lugar para se divertir com os amigos, baseado nos feedbacks ao vivo do local.</p>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="skills" id="text3">
+    <h2>Skills</h2>
+      <div class="skills-icons">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-sass"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-figma"></i>
+      </div>
+  </div>
+
+  <div class="contact_me" id="text4">
+    <h2>Contato</h2>
+    <p><i class="fa-sharp fa-solid fa-phone"></i> (21) 98722-6218</p>
+    <p><i class="fa-sharp fa-solid fa-envelope"></i> barbara-carloni@hotmail.com</p>
+    <div class="social-links">
+      <a href="https://github.com/BarbaraCarloni"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/barbaracarloni/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/barbaracarloni/"><i class="fab fa-instagram"></i></a>
+    </div>
+    <h4><a href="#topo"><i class="fa-sharp fa-solid fa-chevron-up"></i></a></h4>
+  </div>
+
+</div>
